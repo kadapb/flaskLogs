@@ -16,4 +16,5 @@ This is a Flask application that connects to Snowflake to retrieve and display l
    git clone https://github.com/<USERNAME>/<REPOSITORY>.git
    cd <REPOSITORY>
 docker build -t my-flask-app .
+
 docker run -d -p 5000:5000 --name flask-app my-flask-app
